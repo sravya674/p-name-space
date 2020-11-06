@@ -12,14 +12,14 @@ public static void main(String args[])
 	
 	vegetable myveg= (vegetable)appContext.getBean("vegetable");
 	
-	fruit myotherFruit = appContext.getBean("fruitwithname" , fruit.class);
+	vegetable myotherveggie = appContext.getBean("vegiwithname" , vegetable.class);
 	
 	
 	
 	System.out.println(myFruit.talkaboutyourself());
 	
 
-	System.out.println(myotherFruit.talkaboutyourself());
+	System.out.println(myotherveggie.talkaboutyourself());
 	
 	System.out.println(myveg.talkaboutyourself());
 	
